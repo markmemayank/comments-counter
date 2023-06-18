@@ -1,6 +1,6 @@
 === Comments Counter ===
 Contributors: markmemayank
-Tags: Count the number of all type of comments.
+Tags: Count the number of all type of comments like approved comments.
 Tested up to: 6.1
 Stable tag: 1.0
 License: GPLv2 or later

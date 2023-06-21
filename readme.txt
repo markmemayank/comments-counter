@@ -10,7 +10,7 @@ Display the count of all types of comments.
 == Description ==
 This plugin will help you to displays the number of comments in different categories and adds a widget to the WordPress dashboard.
 
-== Installation ==
+== Installation Process ==
 
 From your WordPress dashboard
 

@@ -8,7 +8,7 @@ Author: Mayank Kumar
 Author URI: https://markmemayank.com/
 */
 
-function comment_counter_display() {
+function cc_comment_counter_display() {
     $comment_counts = wp_count_comments(); // Get comment counts
 
     $total_comments = $comment_counts->total_comments;
@@ -29,12 +29,13 @@ function comment_counter_display() {
     echo '</div>';
 }
 
-function comment_counter_widget() {
+function cc_comment_counter_widget() {
     wp_add_dashboard_widget(
-        'comment_counter_widget',
+        'cc_comment_counter_widget',
         esc_html__('Comment Counter'),
-        'comment_counter_display'
+        'cc_comment_counter_display'
     );
 }
 
-add_action('wp_dashboard_setup', 'comment_counter_widget');
+add_action('wp_dashboard_setup', 'cc_comment_counter_widget');
+?>

@@ -20,7 +20,7 @@ function cc_comments_counter_display() {
     $spam_comments = $comment_counts->spam;
     $trash_comments = $comment_counts->trash;
 
-    echo '<div class="comment-counter">';
+    echo '<div class="comment_counter">';
     echo '<h3>' . esc_html__('Comment Counts', 'comments-counter') . '</h3>';
     echo '<ul>';
     echo '<li>' . sprintf(esc_html__('All Comments: %s', 'comments-counter'), esc_html($total_comments)) . '</li>';
